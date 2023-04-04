@@ -20,4 +20,4 @@ spec:
   lifecycle: development
   owner: PayrollApiEngineering
   definition: 
-    $text: https://github.com/Paylocity/Paylocity.DeveloperPortal.Specifications/blob/main/prod/default/payrollconfigurationapi/latest.json
+    $text: https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml
