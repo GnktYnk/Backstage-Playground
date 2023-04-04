@@ -30,16 +30,12 @@ metadata:
       icon: dashboard
 relations:
   - type: apiConsumedBy
-    targetRef: component:default/wayback-search
     target:
       kind: component
-      namespace: default
       name: wayback-search
   - type: apiProvidedBy
-    targetRef: component:default/wayback-archive
     target:
       kind: component
-      namespace: default
       name: wayback-archive    
 spec:
   type: business domain
