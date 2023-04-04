@@ -15,6 +15,20 @@ metadata:
     - payrollconfiguration
     - payroll
     - payrollapis
+  links:
+    - url: https://app.datadoghq.com/apm/services/payrollconfigurationapi
+      title: APM
+      icon: dashboard
+    - url: https://tink8sapp.qa.paylocity.com/PayrollConfigurationApi/swagger
+      title: Swagger For Tin Environment
+      icon: techdocs
+    - url: https://github.com/Paylocity/payr-paylocity.apis.payroll.configuration
+      title: Repository
+      icon: github
+    - url: https://rancher.paylocity.com/dashboard/c/c-lnd9s/explorer/apps.deployment/pcty-payroll/payrollconfigurationapi
+      title: Rancher
+      icon: dashboard
+      
 spec:
   type: business domain
   lifecycle: development
