@@ -28,7 +28,19 @@ metadata:
     - url: https://rancher.paylocity.com/dashboard/c/c-lnd9s/explorer/apps.deployment/pcty-payroll/payrollconfigurationapi
       title: Rancher
       icon: dashboard
-      
+relations:
+  - type: apiConsumedBy
+    targetRef: component:default/wayback-search
+    target:
+      kind: component
+      namespace: default
+      name: wayback-search
+  - type: apiProvidedBy
+    targetRef: component:default/wayback-archive
+    target:
+      kind: component
+      namespace: default
+      name: wayback-archive    
 spec:
   type: business domain
   lifecycle: development
