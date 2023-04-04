@@ -32,10 +32,12 @@ relations:
   - type: apiConsumedBy
     target:
       kind: component
+      namespace: default
       name: wayback-search
   - type: apiProvidedBy
     target:
       kind: component
+      namespace: default
       name: wayback-archive    
 spec:
   type: business domain
