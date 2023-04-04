@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: PayrollConfigurationApi
+  description: Set of APIs for accessing & configuring static payroll data -
+    Earnings, Deductions, Tax Codes, Code Groups, Pay Groups, Job Codes.
+  labels:
+    access: internal
+  tags:
+    - earnings
+    - deductions
+    - taxcodes
+    - codegroups
+    - paygroups
+    - payrollconfiguration
+    - payroll
+    - payrollapis
+spec:
+  type: business domain
+  lifecycle: development
+  owner: PayrollApiEngineering
+  definition: 
+    $text: https://github.com/Paylocity/Paylocity.DeveloperPortal.Specifications/blob/main/prod/default/payrollconfigurationapi/latest.json
